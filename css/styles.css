@@ -1,25 +1,64 @@
+/* Common Design Start */
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
 * {
     margin: 0;
     padding: 0;
+}
+
+p {
+    width: 50%;
+    margin: 0px auto 20px;
 }
 
 .poppins-font {
     font-family: 'Poppins', sans-serif;
 }
 
-section {
-    background-color: aqua;
+.lobster-font {
+    font-family: 'Lobster', cursive;
+    font-weight: 200;
 }
+
+.button {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 10px;
+    background-color: #fb575d;
+    border-radius: 5px;
+}
+
+/* Common Design End */
+
+/* Top Banner Design Start */
 
 #top-banner {
     height: 100vh;
     background-image: url("../images/top-banner-bg.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    margin: auto;
 }
 
-h1 {
+#top-banner h1 {
     font-size: 100px;
     color: white;
-    font-weight: bold;
+    font-weight: 900;
 }
+
+#top-banner a {
+    margin: 0 auto;
+}
+
+/* Top Banner Design End */
+
+/* Footer Design Start */
+#footer {
+    background-color: black;
+    padding: 25px 0;
+}
+
+/* Footer Design End */
