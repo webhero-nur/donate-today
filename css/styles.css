@@ -41,6 +41,7 @@ p {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     margin: auto;
+    margin-bottom: 100px;
 }
 
 #top-banner h1 {
@@ -54,6 +55,51 @@ p {
 }
 
 /* Top Banner Design End */
+
+/* Donate Today Design Start */
+
+#donate-today {
+    width: 50%;
+    margin: 0 auto 150px;
+}
+
+#donate-today-title {
+    font-size: 40px;
+    font-weight: 900;
+}
+
+#donate-amount-all {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.donate-amount {
+    margin: 0 1%;
+    padding: 40px 25px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #999999;
+    background-color: #EEEEEE;
+    border-radius: 5px;
+}
+
+#amount-selected {
+    border: 2px solid #fb575d;
+    color: #fb575d;
+    background-color: #fb575d0e;
+}
+
+input {
+    margin: 50px 0 25px;
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: lightgray;
+    font-size: 20px;
+    align-items: center;
+}
+
+/* Donate Today Design End */
 
 /* Footer Design Start */
 #footer {
