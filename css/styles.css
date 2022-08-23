@@ -7,6 +7,10 @@
     padding: 0;
 }
 
+h3 {
+    margin: 10px 0;
+}
+
 .paragraph-with-half-width {
     width: 50%;
     margin: 0px auto 20px;
@@ -116,7 +120,7 @@ input {
 .cards {
     margin: 0 2%;
     padding: 50px 20px;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .cards p {
@@ -124,23 +128,45 @@ input {
 }
 
 #food-card {
-    background-color: aquamarine;
+    background-color: #d3fdf0;
 }
 
 #shelter-card {
-    background-color: antiquewhite;
+    background-color: #f8eddf;
 }
 
 #education-card {
-    background-color: lightyellow;
+    background-color: #fdfdcf;
 }
 
 /* Donate Plan Design End */
 
+/* Subscribe Section Design Start */
+
+#subscribe {
+    width: 25%;
+    margin: 0 auto 100px;
+    padding: 50px;
+    background-color: #fdfdcf;
+    border-radius: 10px;
+}
+
+#subscribe input {
+    background-color: lightgray;
+    padding: 11px;
+    border-radius: 5px;
+}
+
+/* Subscribe Section Design End */
+
 /* Footer Design Start */
-#footer {
+footer {
     background-color: black;
     padding: 25px 0;
+}
+
+footer h2 {
+    font-size: 40px;
 }
 
 /* Footer Design End */
