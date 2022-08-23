@@ -141,6 +141,20 @@ input {
 
 /* Donate Plan Design End */
 
+/* Volunteer Section Design Start */
+#volunteer {
+    width: 50%;
+    margin: 0 auto;
+    height: 50vh;
+    background-image: url("../images/one-taka-meal-bidyanondo-become-volunteers.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin: auto;
+    margin-bottom: 100px;
+}
+
+/* Volunteer Section Design End */
+
 /* Subscribe Section Design Start */
 
 #subscribe {
